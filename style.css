@@ -1,0 +1,71 @@
+*{
+  margin: 0;
+  padding: 0;
+  font-family: Helvetica;
+  
+}
+body{
+  background-color: blue;
+  color: rgb(5, 45, 91);
+}
+.container{
+  background-color: white;
+  width: 90%;
+  max-width: 500px;
+  margin: 30px auto;
+  padding: 20px;
+  border-radius: 15px;
+}
+h1{
+  font-size: 25px;
+  margin-bottom: 20px;
+  border-bottom: 1px solid rgb(7, 39, 71);
+  padding-bottom: 20px;
+  font-weight: bold;
+}
+h2{
+  font-size: 14px;
+  font-weight: bolder;
+  margin-bottom: 10px;
+}
+.whichone button{
+  width: 100%;
+  padding: 5px 0 5px 10px;
+  background: transparent;
+  margin-top: 7px;
+  border-radius: 5px;
+  text-align: left;
+  cursor: pointer;
+  transition: 0.3s;
+}
+.whichone button:hover{
+  background-color: rgb(44, 44, 44);
+  color: white;
+}
+.btnext{
+  margin: 30px auto;
+  background-color: rgb(8, 33, 76);
+  border: none;
+  outline: none;
+  width: 100px;
+  padding: 10px 15px ;
+  text-align: center;
+  color: white;
+  cursor: pointer;
+}
+.btn-disabled {
+  pointer-events: none; 
+  opacity: 0.6; 
+}
+.remarque{
+  color: red;
+  font-weight: bold;
+  font-size: 20px;
+}
+.result{
+  padding-left: 20px;
+  padding-bottom: 10px;
+}
+
+
+
